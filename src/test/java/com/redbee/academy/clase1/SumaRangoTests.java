@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 public class SumaRangoTests {
 
     @Test
-    @DisplayName("Test suma números impares entre rango 0 y 10")
+    @DisplayName("Test1: suma números impares entre rango 0 y 10")
     void testSumaRango() {
         Integer resultado = SumaRango.resolver(0, 5);
 
@@ -15,7 +15,7 @@ public class SumaRangoTests {
     }
 
     @Test
-    @DisplayName("Test en suma de números impares donde el primer parámetro es mayor al segundo")
+    @DisplayName("Test2:  en suma de números impares donde el primer parámetro es mayor al segundo")
     void testSumaNum1MayorANum2() {
         Integer resultado = SumaRango.resolver(10, 2);
 
@@ -43,7 +43,7 @@ public class SumaRangoTests {
     void testSumaRangoNumerosImpares() {
         Integer resultado = SumaRango.resolverImpares(0, 10);
 
-        Assertions.assertEquals(30, resultado);
+        Assertions.assertEquals(25, resultado);
     }
 
     @Test

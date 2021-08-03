@@ -29,4 +29,12 @@ public class TipoTrianguloTests {
 
         Assertions.assertEquals("Isósceles", resultado);
     }
+
+    @Test
+    @DisplayName("Test triángulo")
+    void testTriangulo4() {
+        String resultado = TipoTriangulo.resolver(1, 2, 2);
+
+        Assertions.assertEquals("Isósceles", resultado);
+    }
 }
